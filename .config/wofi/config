@@ -1,0 +1,8 @@
+width = 60%
+
+prompt =
+insensitive = true
+allow_images = true
+image_size = 25 
+normal_window = true
+columns = 3

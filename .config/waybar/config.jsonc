@@ -1,0 +1,25 @@
+{  
+    "layer": "top",
+    "position": "top",
+    "height": 40,
+
+    "modules-left": ["custom/launcher"],
+
+    "modules-center": ["clock"],
+
+    "modules-right": ["network"],
+
+    "custom/launcher": {
+        "format": "\uf303",
+        "on-click": "wofi --show drun"
+    },
+
+    "clock": {
+        "format": "\uf017 {:%H:%M}",
+        "timezone": "America/Argentina/Buenos_Aires"
+    },
+
+    "network": {
+        "format": "\uef09 {}",
+    }
+}
