@@ -9,6 +9,15 @@ window#waybar {
 	background-color: black;
 }
 
+menu {
+	border-radius: 15px;
+	background: #161220;
+	color: #b5e8e0;
+}
+menuitem {
+	border-radius: 15px;
+}
+
 /*
 #wireplumber {
 	margin: 0.5em
