@@ -2,12 +2,13 @@
     "layer": "bottom",
     "position": "top",
     "height": 46,
+    "spacing": 10,
 
     "modules-left": ["custom/launcher"],
 
     "modules-center": ["clock"],
 
-    "modules-right": ["wireplumber", "network", "custom/power"],
+    "modules-right": ["battery", "wireplumber", "network", "custom/power"],
 
     "custom/launcher": {
         "format": "\uf303",
@@ -21,8 +22,13 @@
         "timezone": "America/Argentina/Buenos_Aires"
     },
 
+    "battery": {
+        "format": "{icon} {capacity}%",
+        "format-icons" : ["\uf244", "\uf243", "\uf242", "\uf241", "\uf240"],
+    },
+
 	"wireplumber": {
-		"format": "{volume}% {icon}",
+		"format": "{icon} {volume}",
 		"format-icons" : ["\uf026", "\uf027", "\uf028"],
 	},
 
