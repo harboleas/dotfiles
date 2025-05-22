@@ -18,6 +18,9 @@ menuitem {
 	border-radius: 15px;
 }
 
+#workspaces button.active {
+	background: #5b7fc4;
+}
 /*
 #wireplumber {
 	margin: 0.5em
