@@ -1,0 +1,67 @@
+{  
+    "layer": "bottom",
+    "position": "top",
+    "spacing": 10,
+
+    "modules-left": ["custom/launcher", "hyprland/workspaces"],
+
+    "modules-center": ["clock"],
+
+    "modules-right": ["battery", "wireplumber", "network", "custom/power"],
+
+    "custom/launcher": {
+        "format": "\uf303",
+		"tooltip": false,
+        "on-click": "fuzzel"
+    },
+
+    "clock": {
+        "format": "\uf017 {:%H:%M}",
+		"tooltip": false,
+        "timezone": "America/Argentina/Buenos_Aires"
+    },
+
+    "battery": {
+        "states": {
+            "warning": 25,
+            "critical": 10
+        },
+        "events": {
+            "on-discharging-warning": "notify-send -u normal 'Bateria Baja'",
+
+            "on-discharging-critical": "notify-send -u critical 'Bateria Critica' 'Conecta el cargador'",
+            "on-charging-100": "notify-send -u normal 'Bateria Llena!'"
+        },
+
+        "format": "{icon} {capacity}%",
+        "format-icons" : ["\uf244", "\uf243", "\uf242", "\uf241", "\uf240"]
+    },
+
+	"wireplumber": {
+		"format": "{icon} ",
+		"format-icons" : ["\uf026", "\uf027", "\uf028"],
+        "tooltip": true, 
+        "tooltip-format": "{volume}%"
+	},
+
+    "network": {
+        "format-wifi": "\uf1eb ",
+        "format-ethernet": "\uef09 ",
+        "format-disconnected": "\uf072 ",
+        "tooltip-format-wifi": "{essid} {signalStrength}%",
+        "tooltip-format-ethernet": "{ifname}",
+        "tooltip-format-disconnected": "Disconnected"
+    },
+
+	"custom/power": {	
+		"format": "\u23fb", 
+		"tooltip": false,
+		"menu": "on-click",
+		"menu-file" : "$HOME/.config/waybar/power_menu.xml",
+		"menu-actions": {
+			"shutdown": "systemctl poweroff",
+			"reboot": "systemctl reboot"
+		} 
+	}
+
+}

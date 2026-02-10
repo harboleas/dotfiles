@@ -1,0 +1,30 @@
+* {
+	font-family: JetBrainsMono Nerd Font, FontAwesome;
+	font-size: 16px;
+	font-weight: bold;
+	padding: 2px;
+	margin: 0 2px;
+}
+
+window#waybar {
+	background-color: black;
+}
+
+menu {
+	border-radius: 15px;
+	background: #161220;
+	color: #b5e8e0;
+}
+menuitem {
+	border-radius: 15px;
+}
+
+#workspaces button {
+    min-height: 0px;
+    padding: 0 1px;
+    margin: 0 2px;
+}
+
+#workspaces button.active {
+	background: #5b7fc4;
+}
