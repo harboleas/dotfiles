@@ -18,6 +18,7 @@ dotnet-sdk-8.0
 dotnet-sdk-9.0
 ex-vi-compat
 fastfetch
+fd
 ffmpegthumbnailer
 figlet
 figlet-fonts
@@ -26,6 +27,7 @@ foot
 foot-terminfo
 freecad
 fuzzel
+fzf
 gimp
 git
 gnome-themes-extra
@@ -49,6 +51,7 @@ jdk-openjdk
 kicad
 kicad-library
 kicad-library-3d
+lazygit
 libnotify
 libreoffice-still
 libreoffice-still-es
@@ -57,6 +60,7 @@ linux-firmware
 linux-headers
 lolcat
 loupe
+luarocks
 mako
 man-db
 mpv
@@ -76,6 +80,7 @@ qt5-quickcontrols
 qt5-svg
 qt5-wayland
 resvg
+ripgrep
 rtkit
 sddm
 sdlpop
@@ -85,6 +90,7 @@ thunar
 thunar-archive-plugin
 thunar-volman
 tmux
+tree-sitter-cli
 ttf-jetbrains-mono-nerd
 tumbler
 usbutils
