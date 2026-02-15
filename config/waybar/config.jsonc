@@ -41,7 +41,8 @@
 		"format": "{icon} ",
 		"format-icons" : ["\uf026", "\uf027", "\uf028"],
     "tooltip": true, 
-    "tooltip-format": "{volume}%"
+    "tooltip-format": "{volume}%",
+    "on-click" : "pavucontrol"
 	},
 
   "network": {

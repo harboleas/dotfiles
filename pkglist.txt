@@ -69,6 +69,7 @@ mpv
 neovim
 nvidia-open-dkms
 nwg-look
+pavucontrol
 pipewire
 pipewire-jack
 pipewire-pulse
