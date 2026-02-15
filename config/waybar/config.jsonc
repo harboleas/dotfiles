@@ -40,18 +40,19 @@
 	"wireplumber": {
 		"format": "{icon} ",
 		"format-icons" : ["\uf026", "\uf027", "\uf028"],
-        "tooltip": true, 
-        "tooltip-format": "{volume}%"
+    "tooltip": true, 
+    "tooltip-format": "{volume}%"
 	},
 
-    "network": {
-        "format-wifi": "\uf1eb ",
-        "format-ethernet": "\uef09 ",
-        "format-disconnected": "\uf072 ",
-        "tooltip-format-wifi": "{essid} {signalStrength}%",
-        "tooltip-format-ethernet": "{ifname}",
-        "tooltip-format-disconnected": "Disconnected"
-    },
+  "network": {
+    "format-wifi": "\uf1eb ",
+    "format-ethernet": "\uef09 ",
+    "format-disconnected": "\uf072 ",
+    "tooltip-format-wifi": "{essid} {signalStrength}%",
+    "tooltip-format-ethernet": "{ifname}",
+    "tooltip-format-disconnected": "Disconnected",
+    "on-click": "iwgtk"          
+  },
 
 	"custom/power": {	
 		"format": "\u23fb", 
@@ -59,7 +60,7 @@
 		"menu": "on-click",
 		"menu-file" : "$HOME/.config/waybar/power_menu.xml",
 		"menu-actions": {
-			"shutdown": "systemctl poweroff",
+		  "shutdown": "systemctl poweroff",
 			"reboot": "systemctl reboot"
 		} 
 	}

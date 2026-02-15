@@ -28,6 +28,7 @@ foot-terminfo
 freecad
 fuzzel
 fzf
+ghc
 gimp
 git
 gnome-themes-extra
@@ -47,6 +48,7 @@ hyprpicker
 imagemagick
 inkscape
 iwd
+iwgtk
 jdk-openjdk
 kicad
 kicad-library
