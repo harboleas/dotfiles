@@ -1,0 +1,79 @@
+* {
+    font-family: JetBrainsMono Nerd Font, FontAwesome;
+	font-size: 16px;
+	font-weight: bold;
+	padding: 2px;
+	margin: 0 2px;
+    color: #eeeeee
+}
+
+window#waybar {
+	background-color: black;
+}
+
+#workspaces button {
+    min-height: 0px;
+    padding: 0 1px;
+    margin: 0 2px;
+}
+
+#workspaces button.active {
+	background: #5b7fc4;
+}
+
+#battery.good, #battery.full {
+    color: #a6e3a1;  
+}
+
+#battery.normal {
+    color: #f9e2af;
+}
+
+#battery.low {
+    color: #fab387;
+}
+
+#battery.critical {
+    color: #f38ba8;
+}
+
+#battery.charging, #battery.plugged {
+    color: #89dceb;
+}
+
+#bluetooth.disabled {
+    color: #a6adc8; 
+}
+
+#bluetooth.off {
+    color: #a6adc8; 
+}
+
+#bluetooth.on {
+    color: #89b4fa; 
+}
+
+#bluetooth.connected {
+    color: #89b4fa; 
+}
+
+#network.disconnected {
+    color: #a6adc8; 
+}
+
+#network.ethernet {
+    color: #a6e3a1; 
+}
+
+#custom-power {
+    color: #f38ba8;
+}
+
+menu {
+	border-radius: 10px;
+	background: #242424;
+}
+menuitem {
+	border-radius: 15px;
+}
+
