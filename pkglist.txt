@@ -69,7 +69,6 @@ luarocks
 mako
 man-db
 mpv
-nasm
 neovim
 nvidia-open-dkms
 nwg-look
