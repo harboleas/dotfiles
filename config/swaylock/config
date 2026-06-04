@@ -1,0 +1,11 @@
+color=1e1e2e
+indicator-idle-visible
+indicator-radius=80
+indicator-thickness=10
+ignore-empty-password
+show-failed-attempts
+
+inside-color=1e1e2e
+ring-color=11111b
+key-hl-color=a6e3a1
+bs-hl-color=f38ba8

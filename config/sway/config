@@ -103,6 +103,9 @@ output * bg /usr/share/backgrounds/sway/Sway_Wallpaper_Blue_1920x1080.png fill
     bindsym $mod+Ctrl+$down focus down
     bindsym $mod+Ctrl+$up focus up
     bindsym $mod+Ctrl+$right focus right
+
+    bindsym $mod+l exec swaylock
+
     # Or use $mod+[up|down|left|right]
 #    bindsym $mod+Left focus left
 #    bindsym $mod+Down focus down
