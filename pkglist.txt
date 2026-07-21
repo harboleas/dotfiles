@@ -24,6 +24,8 @@ fuzzel
 ghc
 gimp
 git
+godot-mono
+grim
 gst-plugin-pipewire
 gst-plugins-bad
 gst-plugins-good
@@ -35,7 +37,6 @@ hyprlock
 hyprpaper
 hyprpicker
 hyprpolkitagent
-hyprshot
 inkscape
 ipython
 iverilog
@@ -78,6 +79,7 @@ qt5-quickcontrols
 qt5-svg
 rtkit
 sddm
+slurp
 sof-firmware
 sound-theme-freedesktop
 sudo
@@ -92,6 +94,7 @@ unzip
 waybar
 wget
 wireplumber
+wl-clipboard
 xarchiver
 xdg-desktop-portal-hyprland
 zathura
