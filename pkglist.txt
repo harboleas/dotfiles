@@ -59,6 +59,7 @@ mkinitcpio
 mpv
 neovim
 networkmanager
+npm
 nvidia-open-dkms
 nvidia-utils
 nwg-look
