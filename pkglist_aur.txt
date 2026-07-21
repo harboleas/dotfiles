@@ -1,0 +1,4 @@
+google-chrome
+iwgtk
+yay
+yay-debug
