@@ -20,6 +20,7 @@ fastfetch
 ffmpeg
 ffmpegthumbnailer
 freecad
+fuzzel
 ghc
 gimp
 git
@@ -30,7 +31,6 @@ gst-plugins-ugly
 gtkwave
 gvfs
 hyprland
-hyprlauncher
 hyprlock
 hyprpaper
 hyprpicker
