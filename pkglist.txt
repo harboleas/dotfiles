@@ -13,12 +13,14 @@ brightnessctl
 btop
 cups
 cups-pk-helper
+docker
 dosfstools
 dotnet-sdk
 efibootmgr
 fastfetch
 ffmpeg
 ffmpegthumbnailer
+flatpak
 freecad
 fuzzel
 ghc
@@ -62,6 +64,7 @@ neovim
 networkmanager
 npm
 nvidia-open-dkms
+nvidia-settings
 nvidia-utils
 nwg-look
 pavucontrol
