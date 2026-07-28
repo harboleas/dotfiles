@@ -67,6 +67,7 @@ nvidia-open-dkms
 nvidia-settings
 nvidia-utils
 nwg-look
+opencv
 pavucontrol
 pipewire
 pipewire-alsa
@@ -77,6 +78,7 @@ platformio-core
 platformio-core-udev
 power-profiles-daemon
 prusa-slicer
+python-opencv
 qemu-full
 qt5-graphicaleffects
 qt5-multimedia
