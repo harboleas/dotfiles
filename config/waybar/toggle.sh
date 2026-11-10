@@ -6,7 +6,7 @@ CLASS=$2
 
 # 1. Si la ventana ya existe, la cerramos (Toggle OFF)
 if hyprctl clients | grep -q "class: $CLASS"; then
-    hyprctl dispatch closewindow class:$CLASS
+    hyprctl dispatch "hl.dsp.window.close({ window = \"class:$CLASS\" })"
 else
     # 2. Si no existe, la lanzamos (Toggle ON)
     $CMD &
