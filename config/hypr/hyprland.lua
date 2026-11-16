@@ -85,16 +85,13 @@ end)
 hl.env("XCURSOR_SIZE", "24")
 hl.env("HYPRCURSOR_SIZE", "24")
 
-hl.env("QT_QPA_PLATFORM", "xcb")
+hl.env("QT_QPA_PLATFORM", "wayland;xcb")
 hl.env("TZ", "America/Argentina/Buenos_Aires")
 
 -- work
 -- hl.env("AQ_DRM_DEVICES", "/dev/dri/gpu_amd:/dev/dri/gpu_nvidia")
--- hl.env("AQ_FORCE_LINEAR_BLIT", "0")
 -- hl.env("LIBVA_DRIVER_NAME", "nvidia")
--- hl.env("__GLX_VENDOR_LIBRARY_NAME", "nvidia")
 -- hl.env("NVD_BACKEND", "direct")
--- hl.env("GMB_BACKEND", "nvidia-drm")
 
 
 -----------------------
